@@ -191,9 +191,9 @@ a {
 
 .hero-marquee__track {
   display: flex;
-  width: max-content;
+  width: auto;
   height: 100%;
-  animation: hero-horizontal-loop 18s linear infinite;
+  animation: none;
   will-change: transform;
   backface-visibility: hidden;
 }
