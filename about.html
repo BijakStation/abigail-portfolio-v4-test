@@ -7,7 +7,7 @@
   <title>About — Abigail Diantete</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/main.js" defer></script>
 </head>
@@ -21,7 +21,7 @@
     </a>
 
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-      <span>Menu</span>
+      <span class="menu-toggle__label">Menu</span>
       <span class="menu-icon" aria-hidden="true"></span>
     </button>
 
@@ -35,32 +35,25 @@
   <main id="main">
     <section class="about-hero page-shell" aria-labelledby="about-title">
       <div class="about-copy reveal">
-        <p class="eyebrow blue-text">About / Abigail Diantete</p>
-        <h1 id="about-title">Abigail Diantete</h1>
+        <p class="eyebrow blue-text" id="about-title">About / Abigail Diantete</p>
         <p>
-          Abigail Diantete is a Paris-based stylist working across fashion, editorial and visual storytelling. Graduated in Fashion Communication and Management, she has developed her experience across style and image, working with creative teams, brands and artists.
+          Abigail is a Paris-based stylist working across fashion, editorial and visual storytelling. Graduated in Fashion Communication and Management, she has developed her experience across style and image, working with creative teams, brands and artists.
         </p>
         <p>
           Her experience in styling, production coordination and talent management allows her to approach a project from both a creative and organisational perspective — from developing an initial idea and moodboard to coordinating the people, garments and details that bring it to life.
         </p>
+
+        <div class="about-inline-services">
+          <p class="eyebrow blue-text">Services /</p>
+          <p>Editorial and Campaign, Image Consulting, Creative Direction, Wardrobe Styling</p>
+        </div>
       </div>
 
       <figure class="about-portrait reveal">
         <img src="assets/images/about/abigail-placeholder.jpg" alt="Portrait temporaire d’Abigail Diantete">
       </figure>
     </section>
-
-    <section class="about-details page-shell reveal" aria-label="Domaines d’expertise">
-      <p class="section-label">Selected services</p>
-      <ul>
-        <li>Editorial and Campaign</li>
-        <li>Image Consulting</li>
-        <li>Creative Direction</li>
-        <li>Wardrobe Styling</li>
-      </ul>
-    </section>
-
-    <section class="contact-block" id="contact" aria-labelledby="contact-title">
+<section class="contact-block" id="contact" aria-labelledby="contact-title">
       <div class="page-shell contact-block__inner reveal">
         <h2 class="contact-title" id="contact-title">Contact</h2>
         <div class="contact-links">

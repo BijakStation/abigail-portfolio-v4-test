@@ -6,13 +6,13 @@ window.ABIGAIL_PROJECTS = [
       categoryLabel: "Editorial",
       year: "JULY 2026",
       client: "Roll Up Magazine",
-      description: "(un)casual wardrobe, July 2026",
+      description: "(un)casual wardrobe",
       concept: "",
       credits: {
     "Styling & AD": "Abigail Diantete",
     "Photographer": "Matthieu Gorin",
     "MUA & Hairstylist": "Asma Nafati",
-    "Models": "Nils Foulon & Mila Chistiakova"},
+    "Models": "Nils Foulon (Next Paris) & Mila Chistiakova (Marylin Agency)"},
       images: ["assets/images/editorial/roll-up-mag/uncommon-grace-01.jpg", "assets/images/editorial/roll-up-mag/uncommon-grace-02.jpg", "assets/images/editorial/roll-up-mag/uncommon-grace-03.jpg" ,  "assets/images/editorial/roll-up-mag/4.jpg",  "assets/images/editorial/roll-up-mag/5.jpg", "assets/images/editorial/roll-up-mag/6.jpg", "assets/images/editorial/roll-up-mag/7.jpg", "assets/images/editorial/roll-up-mag/8.jpg"]
     },
   {
@@ -22,7 +22,7 @@ window.ABIGAIL_PROJECTS = [
       categoryLabel: "Editorial",
       year: "JUNE 2026",
       client: "S&M Magazine Issue 3",
-      description: "CRASH",
+      description: "crash",
       concept: "",
       credits: {
     "Photographer": "Rebecca Dorothy",
@@ -31,8 +31,8 @@ window.ABIGAIL_PROJECTS = [
     "Make-Up": "Roscino Makeup",
     "Hair": "Romain Duplessy",
     "Casting": "Elisa Villa & Millemila Baci",
-    "Models": "Juliaryan Murray & Valya Fedotova — Supreme Management" },
-      images: ["assets/images/editorial/crash-s&m/in-transit-01.jpg", "assets/images/editorial/crash-s&m/in-transit-02.jpg", "assets/images/editorial/crash-s&m/in-transit-03.jpg" ,  "assets/images/editorial/crash-s&m/3.jpg",  "assets/images/editorial/crash-s&m/4.jpg" , "assets/images/editorial/crash-s&m/5.jpg" , "assets/images/editorial/crash-s&m/6.jpg" , "assets/images/editorial/crash-s&m/7.jpg" , "assets/images/editorial/crash-s&m/8.jpg" , "assets/images/editorial/crash-s&m/9.jpg" , "assets/images/editorial/crash-s&m/10.jpg" , "assets/images/editorial/crash-s&m/11.jpg"]
+    "Models": "Julia Murray & Valya Fedotova — Supreme Management" },
+      images: ["assets/images/editorial/crash-s&m/9.jpg", "assets/images/editorial/crash-s&m/in-transit-02.jpg", "assets/images/editorial/crash-s&m/in-transit-03.jpg", "assets/images/editorial/crash-s&m/3.jpg", "assets/images/editorial/crash-s&m/4.jpg", "assets/images/editorial/crash-s&m/11.jpg", "assets/images/editorial/crash-s&m/6.jpg", "assets/images/editorial/crash-s&m/in-transit-01.jpg", "assets/images/editorial/crash-s&m/8.jpg", "assets/images/editorial/crash-s&m/7.jpg", "assets/images/editorial/crash-s&m/10.jpg", "assets/images/editorial/crash-s&m/5.jpg"]
     },
   {
       id: "maya-k",
@@ -49,7 +49,7 @@ window.ABIGAIL_PROJECTS = [
     },
   {
       id: "family-archive",
-      title: "Personal fashion project (3)",
+      title: "Personal Project #3",
       category: "personal",
       categoryLabel: "Personal Projects",
       year: "APRIL 2026",
@@ -100,7 +100,7 @@ window.ABIGAIL_PROJECTS = [
     },
   {
       id: "personal-fashion-project-2",
-      title: "Personal fashion project (2)",
+      title: "Personal Project #2",
       category: "personal",
       categoryLabel: "personal",
       year: " DECEMBER 2025",
@@ -116,7 +116,7 @@ window.ABIGAIL_PROJECTS = [
     },
   {
       id: "sunday-uniform",
-      title: "Personal fashion project (1)",
+      title: "Personal Project #1",
       category: "personal",
       categoryLabel: "Personal Projects",
       year: "DECEMBER 2025",
@@ -157,35 +157,35 @@ window.ABIGAIL_PROJECTS = [
     },
   {
       id: "after-hours",
-      title: "WARDROBE WARS",
+      title: "SCHEMA MAGAZINE",
       category: "editorial",
       categoryLabel: "Editorial",
-      year: "2025",
+      year: "May 2025",
       client: "Schema Magazine",
-      description: "",
+      description: "Wardrobe wars",
       concept: "",
       credits: {
-    "Photographer": "Lebon Bourgeois @lebonbourgeois",
-    "EIC": "Sara Bastai @sarabastai",
-    "Artistic Direction": "Sylvia Perez @sylvia_perezperez",
-    "Stylist": "Julianne Courtois @juliannecourtois",
-    "Make-Up Artist": "Kamila Vay @kamilavay",
-    "Hair Stylist": "Rimi Ura @rimiura",
-    "Set Designer": "Milena Krastev @milenakrastev",
-    "Nail Artist": "Delphine Aissi @delphineaissi",
-    "Light Assistant": "Baptiste Zysman @baptiste_zysman",
+    "Photographer": "Lebon Bourgeois",
+    "EIC": "Sara Bastai",
+    "Artistic Direction": "Sylvia Perez",
+    "Stylist": "Julianne Courtois",
+    "Make-Up Artist": "Kamila Vay",
+    "Hair Stylist": "Rimi Ura",
+    "Set Designer": "Milena Krastev",
+    "Nail Artist": "Delphine Aissi",
+    "Light Assistant": "Baptiste Zysman",
     "Stylist Assistant": "Abigail Diantete",
-    "Special Thanks": "Thomas Manil @thomas_manil"},
-      images: ["assets/images/editorial/shema-magazine/after-hours-01.jpg", "assets/images/editorial/shema-magazine/after-hours-02.jpg", "assets/images/editorial/shema-magazine/after-hours-03.jpg" , "assets/images/editorial/shema-magazine/after-hours-04.jpg" , "assets/images/editorial/shema-magazine/after-hours-05.jpg" , "assets/images/editorial/shema-magazine/after-hours-06.jpg"]
+    "Special Thanks": "Thomas Manil"},
+      images: ["assets/images/editorial/shema-magazine/after-hours-05.jpg", "assets/images/editorial/shema-magazine/after-hours-01.jpg", "assets/images/editorial/shema-magazine/after-hours-02.jpg", "assets/images/editorial/shema-magazine/after-hours-03.jpg", "assets/images/editorial/shema-magazine/after-hours-04.jpg", "assets/images/editorial/shema-magazine/after-hours-06.jpg"]
     },
   {
       id: "objects-in-motion",
       title: "BOTH PARIS",
       category: "campaign",
       categoryLabel: "Campaign",
-      year: " (le mois ??)2025",
+      year: "January 2025",
       client: "BOTH PARIS",
-      description: "Spring Campaign (2025)",
+      description: "Spring Campaign",
       concept: "",
       credits: { 
     "Photographer": "Elliott SB",
@@ -196,12 +196,12 @@ window.ABIGAIL_PROJECTS = [
     },
   {
       id: "parisian-playground",
-      title: "PARISIAN PLAYGROUND - LVMH PRIZE x 24S",
+      title: "24S x LVMH PRIZE",
       category: "campaign",
       categoryLabel: "Campaign",
       year: "2024",
       client: "LVMH PRIZE x 24S",
-      description: "Capsule Collection (2024)",
+      description: "Parisian Playground, capsule collection (2024)",
       concept: "",
       credits: {
     "Brands": "Better — Setchu — Magliano",
@@ -221,9 +221,9 @@ window.ABIGAIL_PROJECTS = [
       title: "24S X COPERNI",
       category: "campaign",
       categoryLabel: "Campaign",
-      year: " (MOIS ?) 2023",
+      year: "2023",
       client: "24S",
-      description: "Capsule Collection (2023)",
+      description: "Capsule Collection",
       concept: "",
       credits: {
     "Talent": "Alanna Archibald — Marilyn Agency Paris",

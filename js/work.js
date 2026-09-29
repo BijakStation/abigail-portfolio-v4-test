@@ -120,30 +120,54 @@
         <div>
           <p class="eyebrow blue-text">${project.categoryLabel} / ${project.year}</p>
           <h1>${project.title}</h1>
+          ${project.description ? `<p class="project-detail-subtitle">${project.description}</p>` : ""}
         </div>
-        ${project.description ? `<p>${project.description}</p>` : ""}
       </header>
 
 <section class="project-linear-gallery" aria-label="Galerie du projet ${project.title}">
-        ${getProjectMedia(project).map((media, index, allMedia) => `
-          <figure class="project-linear-media">
-            <span class="project-linear-media__number" aria-hidden="true">${padNumber(index + 1)}</span>
-            <div class="project-linear-media__asset">
-              ${media.type === "video" ? `
-                <video controls playsinline muted autoplay loop preload="metadata" data-project-autoplay-video>
-                  <source src="${media.src}" type="video/mp4">
-                  Votre navigateur ne prend pas en charge la lecture vidéo.
-                </video>
-              ` : `
-                <img
-                  src="${media.src}"
-                  alt="${project.title} — image ${index + 1} sur ${allMedia.length}"
-                  loading="lazy"
-                >
-              `}
-            </div>
-          </figure>
-        `).join("")}
+        ${getProjectMedia(project).map((media, index, allMedia) => {
+          if (project.id === "after-hours" && index === 1) {
+            const rightMedia = allMedia[index + 1];
+            return `
+              <div class="schema-continuous-pair">
+                ${[media, rightMedia].map((pairMedia, pairIndex) => `
+                  <figure class="project-linear-media">
+                    <span class="project-linear-media__number" aria-hidden="true">${padNumber(index + pairIndex + 1)}</span>
+                    <div class="project-linear-media__asset">
+                      <img
+                        src="${pairMedia.src}"
+                        alt="${project.title} — image ${index + pairIndex + 1} sur ${allMedia.length}"
+                        loading="lazy"
+                      >
+                    </div>
+                  </figure>
+                `).join("")}
+              </div>
+            `;
+          }
+
+          if (project.id === "after-hours" && index === 2) return "";
+
+          return `
+            <figure class="project-linear-media">
+              <span class="project-linear-media__number" aria-hidden="true">${padNumber(index + 1)}</span>
+              <div class="project-linear-media__asset">
+                ${media.type === "video" ? `
+                  <video controls playsinline muted autoplay loop preload="metadata" data-project-autoplay-video>
+                    <source src="${media.src}" type="video/mp4">
+                    Votre navigateur ne prend pas en charge la lecture vidéo.
+                  </video>
+                ` : `
+                  <img
+                    src="${media.src}"
+                    alt="${project.title} — image ${index + 1} sur ${allMedia.length}"
+                    loading="lazy"
+                  >
+                `}
+              </div>
+            </figure>
+          `;
+        }).join("")}
       </section>
 
       <section class="project-information page-shell">
